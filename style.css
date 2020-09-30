@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1332px) {
+@media only screen and (max-width: 1330px) {
   .landing {
     background-size: contain;
   }
