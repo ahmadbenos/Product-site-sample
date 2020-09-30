@@ -7,9 +7,16 @@
 
 .landing {
   min-height: 100vh;
+  max-width: 100%;
   background-image: url("./photos/bgimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1332px) {
+  .landing {
+    background-size: contain;
+  }
 }
 
 li,
@@ -91,4 +98,46 @@ header {
   padding-top: 1%;
   letter-spacing: 2px;
   font-weight: 900;
+}
+
+@media only screen and (max-width: 1361px) {
+  .title h1 {
+    padding-left: 10%;
+  }
+  .title h2 {
+    padding-left: 13%;
+  }
+}
+
+@media only screen and (max-width: 1276px) {
+  .title h1 {
+    font-size: 5rem;
+    padding-top: 8%;
+    padding-left: 9%;
+  }
+  .title h2 {
+    font-size: 4.5rem;
+    padding-left: 12%;
+    padding-top: 0%;
+  }
+}
+
+@media only screen and (max-width: 1276px) {
+  .title h1 {
+    font-size: 4rem;
+    padding-top: 7%;
+    padding-left: 8%;
+  }
+  .title h2 {
+    font-size: 3.5rem;
+    padding-left: 11%;
+    padding-top: 0%;
+  }
+}
+
+.pricing-section h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 4rem;
 }
