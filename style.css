@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -162,4 +164,66 @@ header {
   font-family: Roboto;
   font-weight: 900;
   font-size: 4rem;
+}
+
+.pricing-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.pricing-main img {
+  width: 40%;
+  height: 45%;
+}
+
+.pricing-main p {
+  font-family: Yanone Kaffeesatz;
+  font-size: 2rem;
+  /* border: 3px solid #fc7900;*/
+  width: 35%;
+  word-wrap: break-word;
+  line-height: 140%;
+  font-weight: 500;
+  padding: 10px;
+}
+
+/* .hbtn i {
+  padding-right: 8px;
+} */
+
+.hb-border-top-br3 {
+  position: relative;
+  transition-duration: 0.3s;
+  overflow: visible;
+  box-sizing: border-box;
+  border: none;
+  padding: 10px 22px;
+}
+
+.hb-border-top-br3::after {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 3px solid #fc7900;
+  z-index: 2;
+  margin: 0px;
+  top: 0px;
+  right: 0px;
+  border-bottom-width: 2px;
+  transition: border-bottom-width 0.1s ease 0.2s, height 0.2s ease 0.1s,
+    width 0.2s ease 0s, margin 0.2s ease 0s;
+}
+
+.hb-border-top-br3:hover::after {
+  width: 60%;
+  height: 0px;
+  border-width: 4px 2px 0px;
+  border-color: #6b3eb3;
+  margin: 0px 20%;
+  transition: border-bottom-width 0.1s ease 0s, height 0.2s ease 0.1s,
+    width 0.2s ease 0.2s, margin 0.2s ease 0.2s;
 }
