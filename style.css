@@ -226,6 +226,24 @@ header {
   }
 }
 
+@media only screen and (max-device-width: 813px) {
+  .pricing-main .why-us {
+    height: auto;
+    width: 50%;
+    font-size: 1.8rem;
+  }
+
+  #p-2 {
+    height: auto;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  #uptime {
+    right: 50px;
+  }
+}
+
 @media only screen and (max-device-width: 478px) {
   .pricing-main .why-us {
     height: auto;
