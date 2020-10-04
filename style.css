@@ -117,11 +117,12 @@ header {
   height: 45%;
 }
 
-.pricing-main p {
+.pricing-main .why-us {
   font-family: Yanone Kaffeesatz;
   font-size: 2rem;
   /* border: 3px solid #fc7900;*/
   width: 40%;
+  max-height: auto;
   word-wrap: break-word;
   line-height: 140%;
   font-weight: 500;
@@ -212,8 +213,10 @@ header {
   }
 }
 
-@media only screen and (max-width: 478px) {
-  .pricing-main img {
-    display: none;
+@media only screen and (max-device-width: 478px) {
+  .pricing-main .why-us {
+    height: auto;
+    width: 50%;
+    font-size: 1.8rem;
   }
 }
