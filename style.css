@@ -17,6 +17,7 @@
 
 @media only screen and (max-width: 1330px) {
   .landing {
+    min-height: 700px;
     background-size: contain;
   }
 }
@@ -115,19 +116,6 @@ header {
 
 @media only screen and (max-width: 1276px) {
   .title h1 {
-    font-size: 5rem;
-    padding-top: 8%;
-    padding-left: 9%;
-  }
-  .title h2 {
-    font-size: 4.5rem;
-    padding-left: 12%;
-    padding-top: 0%;
-  }
-}
-
-@media only screen and (max-width: 1276px) {
-  .title h1 {
     font-size: 4rem;
     padding-top: 7%;
     padding-left: 8%;
@@ -136,26 +124,6 @@ header {
     font-size: 3.5rem;
     padding-left: 11%;
     padding-top: 0%;
-  }
-}
-
-@media only screen and (max-width: 1175px) {
-  li,
-  a {
-    font-weight: 400;
-    font-size: 26px;
-    color: white;
-    text-decoration: none;
-    font-family: Roboto;
-    letter-spacing: 2px;
-  }
-
-  .nav_links {
-    padding-top: 7%;
-    padding-right: 25px;
-  }
-  .nav_links li {
-    padding: 0px 10px;
   }
 }
 
@@ -226,4 +194,24 @@ header {
   margin: 0px 20%;
   transition: border-bottom-width 0.1s ease 0s, height 0.2s ease 0.1s,
     width 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+}
+
+@media only screen and (max-width: 1175px) {
+  li,
+  a {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  .nav_links {
+    padding-top: 7%;
+    padding-right: 25px;
+  }
+  .nav_links li {
+    padding: 0px 10px;
+  }
+
+  .pricing-section {
+    margin-top: -120px;
+  }
 }
