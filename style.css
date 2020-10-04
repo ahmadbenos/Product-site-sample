@@ -164,6 +164,19 @@ header {
     width 0.2s ease 0.2s, margin 0.2s ease 0.2s;
 }
 
+.title-two {
+  justify-content: space-around;
+  padding-top: 1%;
+}
+
+#uptime {
+  width: 30%;
+  height: 40%;
+  position: relative;
+  right: 90px;
+}
+
+/*! Media Queries */
 @media only screen and (max-width: 1361px) {
   .title h1 {
     padding-left: 10%;
@@ -218,5 +231,15 @@ header {
     height: auto;
     width: 50%;
     font-size: 1.8rem;
+  }
+
+  #p-2 {
+    height: auto;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  #uptime {
+    right: 20px;
   }
 }
