@@ -176,6 +176,32 @@ header {
   right: 90px;
 }
 
+.number-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  font-family: Roboto;
+  color: #4e47bb;
+  display: block;
+  width: 10%;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.number-stat {
+  font-size: 4rem;
+}
+
+.text-info {
+  font-size: 1.5rem;
+  color: black;
+  word-wrap: none;
+}
+
 /*! Media Queries */
 @media only screen and (max-width: 1361px) {
   .title h1 {
