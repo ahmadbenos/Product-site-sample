@@ -9,16 +9,18 @@ const options = {
 var check = [];
 
 const observerOptions = {
-  threshold: 0.2,
+  threshold: 1.0,
 };
 let observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     let div = entry.target;
-    console.log(div);
-    if (check.length === 0) {
-      startCount();
-    } else {
-      return;
+    if (entry.isIntersecting) {
+      console.log(div);
+      if (check.length === 0) {
+        startCount();
+      } else {
+        return;
+      }
     }
   });
 }, observerOptions);
@@ -32,9 +34,9 @@ function startCount() {
   const xp = new CountUp("xp", 0, 8, 0, 5);
   xp.start();
 
-  const experts = new CountUp("experts", 0, 94, 0, 7);
+  const experts = new CountUp("experts", 0, 94, 0, 8);
   experts.start();
 
-  const vps = new CountUp("vps", 0, 8046, 0, 7, options);
+  const vps = new CountUp("vps", 0, 8046, 0, 8, options);
   vps.start();
 }
