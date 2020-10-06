@@ -98,26 +98,26 @@ header {
   font-weight: 900;
 }
 
-.pricing-section h1 {
+.aboutus-section h1 {
   text-align: center;
   font-family: Roboto;
   font-weight: 900;
   font-size: 4rem;
 }
 
-.pricing-main {
+.aboutus-main {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 0px;
 }
 
-.pricing-main img {
+.aboutus-main img {
   width: 40%;
   height: 45%;
 }
 
-.pricing-main .why-us {
+.aboutus-main .why-us {
   font-family: Yanone Kaffeesatz;
   font-size: 2rem;
   /* border: 3px solid #fc7900;*/
@@ -202,6 +202,50 @@ header {
   word-wrap: none;
 }
 
+.pricing-section {
+  margin-top: 5%;
+}
+
+.pricing-section > h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.pricing-main {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.card {
+  height: auto;
+  width: 25%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.text {
+  background-color: #f1f1f1;
+  color: #0777e2;
+  font-family: Roboto;
+  padding: 20px;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.description {
+  word-wrap: break-word;
+  text-align: center;
+  padding: 10px 25px;
+  font-family: Roboto;
+  font-weight: 900;
+}
+
 /*! Media Queries */
 @media only screen and (max-width: 1361px) {
   .title h1 {
@@ -247,13 +291,13 @@ header {
     padding: 0px 10px;
   }
 
-  .pricing-section {
+  .aboutus-section {
     margin-top: -120px;
   }
 }
 
 @media only screen and (max-device-width: 813px) {
-  .pricing-main .why-us {
+  .aboutus-main .why-us {
     height: auto;
     width: 50%;
     font-size: 1.8rem;
@@ -270,8 +314,20 @@ header {
   }
 }
 
+@media only screen and (max-device-width: 760px) {
+  .number-stat {
+    font-size: 3rem;
+  }
+
+  .text-info {
+    font-size: 1.4rem;
+    color: black;
+    word-wrap: none;
+  }
+}
+
 @media only screen and (max-device-width: 478px) {
-  .pricing-main .why-us {
+  .aboutus-main .why-us {
     height: auto;
     width: 50%;
     font-size: 1.8rem;

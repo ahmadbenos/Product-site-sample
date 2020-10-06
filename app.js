@@ -15,7 +15,7 @@ let observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     let div = entry.target;
     if (entry.isIntersecting) {
-      console.log(div);
+      //console.log(div);
       if (check.length === 0) {
         startCount();
       } else {
