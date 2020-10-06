@@ -246,6 +246,16 @@ header {
   font-weight: 900;
 }
 
+.price {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.price-text {
+  color: #a6abad;
+  font-size: 1.2rem;
+}
+
 /*! Media Queries */
 @media only screen and (max-width: 1361px) {
   .title h1 {

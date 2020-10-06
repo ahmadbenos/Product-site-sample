@@ -31,7 +31,7 @@ function startCount() {
   const costumers = new CountUp("clients", 0, 14811, 0, 9, options);
   costumers.start();
 
-  const xp = new CountUp("xp", 0, 8, 0, 5);
+  const xp = new CountUp("xp", 0, 8, 0, 6);
   xp.start();
 
   const experts = new CountUp("experts", 0, 94, 0, 8);
