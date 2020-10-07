@@ -266,9 +266,14 @@ header {
 
 .feature-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.feature-item p {
   font-family: Roboto;
-  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .tick {
