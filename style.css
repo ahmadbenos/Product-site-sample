@@ -180,6 +180,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 4%;
 }
 
 .circle {
@@ -203,7 +204,7 @@ header {
 }
 
 .pricing-section {
-  margin-top: 5%;
+  padding-top: 11%;
 }
 
 .pricing-section > h1 {
@@ -252,11 +253,35 @@ header {
 }
 
 .price-text {
-  color: #a6abad;
+  color: #7f7f7f;
   font-size: 1.2rem;
 }
 
-/*! Media Queries */
+.main-price {
+  margin-top: 10px;
+  color: #323d45;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 1.5rem;
+}
+
+.tick {
+  color: #0088a9;
+}
+
+/*! Media Queries ---------------------------------*/
+/*! --------------------------------------------*/
+/*! ----------- ---------------------------------*/
+/*! ----------- ---------------------------------*/
+/*! ----------- ---------------------------------*/
+/*! ----------- ---------------------------------*/
+/*! ----------- ---------------------------------*/
 @media only screen and (max-width: 1361px) {
   .title h1 {
     padding-left: 10%;
@@ -321,6 +346,16 @@ header {
 
   #uptime {
     right: 50px;
+  }
+}
+
+@media only screen and (max-device-width: 813px) and (max-device-height: 376px) {
+  .number-stat {
+    font-size: 2.5rem;
+  }
+
+  .text-info {
+    font-size: 1.6rem;
   }
 }
 
