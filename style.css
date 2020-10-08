@@ -264,20 +264,49 @@ header {
   font-weight: 900;
 }
 
+.features {
+  padding-top: 25px;
+  padding-left: 22%;
+}
+
 .feature-item {
   display: flex;
   justify-content: flex-start;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   align-items: center;
+  padding-top: 7px;
 }
 
 .feature-item p {
   font-family: Roboto;
   font-weight: 900;
+  padding-left: 5px;
 }
 
 .tick {
   color: #0088a9;
+}
+
+.buy {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.buy button {
+  border: 2px solid #0171ee;
+  background: none;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  padding: 10px 50px;
+  color: #0171ee;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 450ms;
+}
+
+.buy button:hover {
+  background-color: #0171ee;
+  color: white;
 }
 
 /*! Media Queries ---------------------------------*/
@@ -373,6 +402,10 @@ header {
     font-size: 1.4rem;
     color: black;
     word-wrap: none;
+  }
+
+  .description {
+    font-size: 0.8rem;
   }
 }
 
