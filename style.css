@@ -427,6 +427,27 @@ header {
   .description {
     font-size: 0.8rem;
   }
+
+  .main-price {
+    font-size: 1.5rem;
+  }
+
+  .feature-item {
+    font-size: 1rem;
+  }
+
+  .secnd-btn {
+    padding-top: 50px !important;
+  }
+
+  .third-btn {
+    padding-top: 50px !important;
+  }
+
+  .pricing-section > h1 {
+    font-size: 3rem;
+    padding-top: 80px;
+  }
 }
 
 @media only screen and (max-device-width: 478px) {
@@ -464,5 +485,10 @@ header {
 
   .third-btn {
     padding-top: 50px !important;
+  }
+
+  .pricing-section > h1 {
+    font-size: 3.5rem;
+    padding-top: 55px;
   }
 }
