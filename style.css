@@ -304,6 +304,14 @@ header {
   transition: all 450ms;
 }
 
+.secnd-btn {
+  padding-top: 55px !important;
+}
+
+.third-btn {
+  padding-top: 55px !important;
+}
+
 .buy button:hover {
   background-color: #0171ee;
   color: white;
@@ -424,5 +432,25 @@ header {
 
   #uptime {
     right: 20px;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .main-price {
+    font-size: 1.5rem;
+  }
+
+  .feature-item {
+    font-size: 1rem;
+  }
+
+  .secnd-btn {
+    padding-top: 50px !important;
+  }
+
+  .third-btn {
+    padding-top: 50px !important;
   }
 }
