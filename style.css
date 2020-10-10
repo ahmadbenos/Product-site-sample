@@ -429,6 +429,18 @@ footer {
 /*! ----------- ---------------------------------*/
 /*! ----------- ---------------------------------*/
 /*! ----------- ---------------------------------*/
+
+@media only screen and (min-device-width: 761px) and (max-device-width: 1427px) {
+  .pricing-section > h1 {
+    font-size: 2.3rem;
+    padding-top: 115px;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 1361px) {
   .title h1 {
     padding-left: 10%;
