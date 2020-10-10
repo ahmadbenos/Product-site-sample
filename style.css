@@ -422,6 +422,16 @@ footer {
   font-size: 2.5rem;
 }
 
+.my-info {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.my-info a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
 /*! Media Queries ---------------------------------*/
 /*! --------------------------------------------*/
 /*! ----------- ---------------------------------*/
