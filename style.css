@@ -329,6 +329,58 @@ header {
   text-align: center;
 }
 
+.contact-main {
+  display: block;
+  text-align: center;
+  font-family: Roboto;
+  margin-top: 40px;
+}
+
+form {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.contact-item {
+  padding: 10px 0px;
+}
+
+.contact-item label {
+  font-size: 1.5rem;
+}
+
+.contact-item input {
+  padding: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  width: 500px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+textarea {
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 1.5rem;
+}
+
+.btn-submit {
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.btn-submit button {
+  padding: 10px 50px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #4d97de, #54ba55);
+  border: none;
+}
+
 /*! Media Queries ---------------------------------*/
 /*! --------------------------------------------*/
 /*! ----------- ---------------------------------*/
