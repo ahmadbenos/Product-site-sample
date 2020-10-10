@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .landing {
   min-height: 100vh;
   max-width: 100%;
